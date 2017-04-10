@@ -4,11 +4,11 @@
     #Bazel
     - apt_repository: repo='deb http://storage.googleapis.com/bazel-apt stable jdk1.8' state=present
     - apt_key: url=https://storage.googleapis.com/bazel-apt/doc/apt-key.pub.gpg state=present
-    - apt-get: update_cache=yes
-    - apt-get: name=bazel state=installed
+    - apt: update_cache=yes
+    - apt: name=bazel state=installed
 
     - name: Install pip
-      apt-get: name=python-pip state=installed
+      apt: name=python-pip state=installed
     
     - name: "Install tensorflow"
       become: yes
