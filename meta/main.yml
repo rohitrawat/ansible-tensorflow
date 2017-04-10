@@ -172,4 +172,4 @@ galaxy_info:
 
 dependencies:
   - { role: jpnewman.java }
-  - { role: kuza55.cudnn }
+  - { role: trevorprater.cudnn }
