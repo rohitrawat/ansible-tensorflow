@@ -12,4 +12,4 @@
     
     - name: "Install tensorflow"
       become: yes
-      pip: name=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl state=present
+      pip: name=https://pypi.python.org/packages/ea/5e/226926f6ac15b0ebd77d082909abf18e2c0cc1a4494e07b551e94127a72b/tensorflow_gpu-1.1.0rc1-cp27-cp27mu-manylinux1_x86_64.whl state=present
